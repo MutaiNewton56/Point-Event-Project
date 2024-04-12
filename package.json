@@ -1,0 +1,15 @@
+{
+  "name": "point-event",
+  "version": "1.0.0",
+  "description": "point event API ",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+    "jsom:server:remote":"json-server http://jsonplaceholder.typicode.com/db" 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
