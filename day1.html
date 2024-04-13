@@ -12,7 +12,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+ 
   <link href="./style.css" rel="stylesheet">
   <link href="./sch.css" rel="stylesheet">
 
@@ -20,48 +20,35 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
+  
   <header id="header" class="d-flex align-items-center ">
     <div class="container-fluid container-xxl d-flex align-items-center">
 
       <div id="logo" class="me-auto">
 
         <h1><a href="index.html"><span>ThePointEvent</span></a></h1>
-        <!-- <a href="index.html" class="scrollto"><img src="./img/logo.png" alt="" title=""></a> -->
+        
       </div>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="index.html">About</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li> -->
           <li><a class="nav-link scrollto" href="#schedule">Schedule</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#venue">Venue</a></li> -->
-          <!-- <li><a class="nav-link scrollto" href="#hotels">Hotels</a></li> -->
-          
-                <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-      <!-- <a class="buy-tickets scrollto" href="#buy-tickets">Buy Tickets</a> -->
-
+      </nav>
     </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
+  </header>
+  
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
       <h1 class="mb-4 pb-0">The Point<br><span>Event</span> Schedule</h1>
       <p class="mb-4 pb-0"> SCHEDULE OF THE DAY</p>
-     
-      <!-- <a href="#about" class="about-btn scrollto">About The Point Event</a> -->
     </div>
-  </section><!-- End Hero Section -->
+  </section>
 
   <main id="main">
-
-   
-    <!-- ======= Schedule Section ======= -->
     <section id="schedule" class="section-with-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
@@ -69,8 +56,8 @@
           <p>Here is our event schedule</p>
         </div>
 
-    <div class="image-container">
-      <div class="image-card">
+    <div >
+      <div >
         <h2 id="card-title" class="title">Point Event Planner</h2>
        
         <ul id="comments-list" class="comments">
@@ -91,83 +78,65 @@
         </form>
       </div>
       <div>
+        <h2>Users</h2>
+        <table id="data-table">
+          <thead>
+              <tr>
+                  <th>name</th>
+                  <th>username</th>
+                  <th>email</th>
+              </tr>
+          </thead>
+          <tbody id="users">
+              
+          </tbody>
+        </table>
         <h2>To do</h2>
-    <table ><input
-    class="comment-input"
-    type="text"
-    name="comment"
-    id="comment"
-  />
-        <tr>
-            <th>Time</th>
-            <th>Activity</th>
-            <th>Location</th>
-            
-        </tr>
-        <tr>
-            <td>8:00 AM</td>
-            <td>Breakfast</td>
-            <td>Kitchen</td>
-        </tr>
-        <tr>
-            <td>9:00 AM</td>
-            <td>Meeting</td>
-            <td>Conference Room</td>
-        </tr>
+        <table id="data-table">
+          <thead>
+              <tr>
+                  <th>name</th>
+                  <th>ID</th>
+                  <th>Title</th>
+                  <th>completed</th>
+              </tr>
+          </thead>
+          <tbody id="toDo">
+              
+          </tbody>
     </table>
       </div>
       <div>
         <h2>In Progress</h2>
-    <table><input
-      class="comment-input"
-      type="text"
-      name="comment"
-      id="comment"
-      
-    />
-        <tr>
-            <th>Time</th>
-            <th>Activity</th>
-            <th>Location</th>
-            
-        </tr>
-        <tr>
-            <td>8:00 AM</td>
-            <td>Breakfast</td>
-            <td>Kitchen</td>
-        </tr>
-        <tr>
-            <td>9:00 AM</td>
-            <td>Meeting</td>
-            <td>Conference Room</td>
-        </tr>
-    </table >
+        <table id="data-table">
+          <thead>
+              <tr>
+                  <th>name</th>
+                  <th>ID</th>
+                  <th>Title</th>
+                  <th>Completed</th>
+              </tr>
+          </thead>
+          <tbody id="InProgress">
+              
+          </tbody>
+      </table>
       </div>
       <div>
         <h2>Complete</h2>
-    <table ><input
-      class="comment-input"
-      type="text"
-      name="comment"
-      id="comment"
-    />
-        <tr>
-            <th>Time</th>
-            <th>Activity</th>
-            <th>Location</th>
-            
-        </tr>
-        <tr>
-            <td>8:00 AM</td>
-            <td>Breakfast</td>
-            <td>Kitchen</td>
-        </tr>
-        <tr>
-            <td>9:00 AM</td>
-            <td>Meeting</td>
-            <td>Conference Room</td>
-        </tr>
-    </table>
+        <table id="data-table">
+          <thead>
+              <tr>
+                <th>name</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Completed</th>
+              </tr>
+          </thead>
+          <tbody id="complete">
+
+          </tbody>
+      </table>
       </div>
     </div>
         <h3 class="sub-heading">Well-planned events can do wonders for your reputation, company morale, community engagement, and more! 
@@ -177,11 +146,10 @@
 
         
 
-    </section><!-- End Schedule Section -->
+    </section>
   
-</main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
+</main>
+  
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -211,12 +179,10 @@
         &copy; Copyright <strong>ThePointEvent</strong>. All Rights Reserved
       </div>
     </div>
-  </footer><!-- End  Footer -->
+  </footer>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-
-  <!-- Template Main JS File -->
   <script src="./index.js"></script>
   <script src="./pointEvent.js"></script>
 
