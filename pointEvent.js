@@ -59,9 +59,10 @@ document.addEventListener("DOMContentLoaded", () => {
     toDoData.forEach((ToDo) => {
       const row = document.createElement("tr");
       row.innerHTML = `
+              <td>${ToDo.userId}</td>
               <td>${ToDo.id}</td>
               <td>${ToDo.title}</td>
-              <td>${ToDo.body}</td>
+              <td>${ToDo.completed}</td>
           `;
       tableBody.appendChild(row);
     });
@@ -90,9 +91,10 @@ document.addEventListener("DOMContentLoaded", () => {
     inProgressData.forEach((data) => {
       const row = document.createElement("tr");
       row.innerHTML = `
+              <td>${data.userId}</td>
               <td>${data.id}</td>
               <td>${data.title}</td>
-              <td>${data.body}</td>
+              <td>${data.completed}</td>
           `;
       tableBody.appendChild(row);
     });
@@ -121,9 +123,10 @@ document.addEventListener("DOMContentLoaded", () => {
     completeData.forEach((complete) => {
       const row = document.createElement("tr");
       row.innerHTML = `
+                <td>${complete.userId}</td>
                 <td>${complete.id}</td>
                 <td>${complete.title}</td>
-                <td>${complete.body}</td>
+                <td>${complete.completed}</td>
             `;
       tableBody.appendChild(row);
     });
