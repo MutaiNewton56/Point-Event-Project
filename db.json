@@ -76,7 +76,7 @@
       "id": "cd9e"
     }
   ],
-  "to do": [
+  "todo": [
     {
       "userId": 1,
       "id": "1",
@@ -161,7 +161,6 @@
       "title": "Launch ticket sales",
       "completed": false
     },
-   
     {
       "userId": 3,
       "id": "1",
@@ -205,7 +204,7 @@
       "completed": false
     }
   ],
-  "InProgress": [
+  "inprogress": [
     {
       "userId": 1,
       "id": "1",
@@ -473,6 +472,31 @@
     {
       "userId": "3",
       "content": "Make a budget for the event"
+    },
+    {
+      "id": "ac52",
+      "imageId": 1,
+      "content": "add"
+    },
+    {
+      "id": "b284",
+      "imageId": 1,
+      "content": "Test"
+    },
+    {
+      "id": "3965",
+      "imageId": 1,
+      "content": ""
+    },
+    {
+      "id": "f8ce",
+      "imageId": 1,
+      "content": "aadd"
+    },
+    {
+      "id": "f91b",
+      "imageId": 1,
+      "content": "newton"
     }
   ]
 }

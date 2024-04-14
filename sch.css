@@ -99,7 +99,7 @@
     font-size: 0.8rem;
   }
   
-  .comment-input:focus {
+  .comment-input:focus   {
     outline: none;
   }
   
@@ -146,4 +146,56 @@
 /* Hover effect */
 #data-table tbody tr:hover {
   background-color: #ddd;
+}
+
+/* style.css */
+
+/* Style the textarea */
+#textAreaComment {
+  width: calc(100% - 120px); /* Adjust the width to leave space for the button */
+  height: 40px; /* Adjust the height as needed */
+  padding: 10px;
+  margin-right: 20px; /* Add some right margin between the textarea and button */   
+  margin-left: 40px;
+  margin-bottom: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none; /* Prevent resizing */
+}
+
+/* Style the comments list */
+.comments {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comments li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+}
+
+.comments li:last-child {
+  margin-bottom: 15; /* Remove margin-bottom for the last comment */
+}
+.comment-container {
+  display: flex; /* Use flexbox layout */
+  align-items: flex-start; /* Align items to the start of the container */
+}
+
+/* Style the button */
+#textCommentButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 1  0px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#textCommentButton:hover {
+  background-color: #45a049;
 }
